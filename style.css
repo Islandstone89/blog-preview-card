@@ -92,7 +92,7 @@ body {
     background-color: var(--clr--primary);
     color: var(--clr--black);
     font-family: var(--ff--figtree);
-    padding: 1rem;
+    padding-inline: 1rem;
 }
 
 .card {
@@ -117,10 +117,8 @@ body {
 .subject-tag {
     display: inline-block;
     background-color: var(--clr--primary);
-    text-decoration: none;
     padding: .4em 1em;
     font-weight: var(--fw--extra-bold);
-    color: inherit;
     border-radius: 5px;
 }
 
@@ -140,4 +138,8 @@ body {
     align-items: center;
     gap: .7rem;
     font-weight: var(--fw--extra-bold);
+}
+
+.author-image {
+  height: 2.5em;
 }
